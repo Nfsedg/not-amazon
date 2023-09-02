@@ -17,7 +17,7 @@ export default async function Products({
     <div className="flex flex-col w-full items-center gap-4 p-2">
       {itemsResults?.map((product) => {
         return (
-          <CardProducts canonicalUrl={canonicalUrl} image={product?.image} name={product?.name} linePrice={product?.priceInfo?.linePrice} />
+          <CardProducts canonicalUrl={product?.canonicalUrl} image={product?.image} name={product?.name} linePrice={product?.priceInfo?.linePrice} />
         );
       })}
     </div>

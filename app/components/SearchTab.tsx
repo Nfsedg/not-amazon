@@ -26,7 +26,7 @@ export default function App() {
           value={search}
           fullWidth
           classNames={{
-            inputWrapper: "pr-0"
+            inputWrapper: "pr-0 text-white",
           }}
           placeholder="Type to search..."
           endContent={
